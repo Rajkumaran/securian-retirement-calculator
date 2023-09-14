@@ -36,7 +36,7 @@ To set up the project:
    ```bash
    npm install
 
-##Usage
+## Usage
 
 To run the automated tests, use the following command:
 
@@ -45,18 +45,16 @@ To run the automated tests, use the following command:
 
 This command will execute the tests using WebdriverIO and display the results in the console.
 
-##Viewing Allure Reports
+Viewing Allure Reports
 
-Allure reports provide detailed information about test execution and results. To generate and view Allure reports, use the following commands:
+- Allure reports provide detailed information about test execution and results. To generate and view Allure reports, use the following commands:
 
 Generate the reports:
 
-   ```bash
-   npm run wdio
+   npm run allure-generate
 
 Open the reports in a web browser:
-
-   ```bash
-   npm run wdio
+   
+   npm run allure-open
 
 These commands will generate and open Allure reports in your default web browser, allowing you to view detailed test results.
